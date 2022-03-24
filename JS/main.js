@@ -47,7 +47,7 @@ window.onload = function () {
 
     submit.addEventListener('click', function() {
         if (question.value.length < 6) {
-            alert('Please type your question if you want an answer!');
+            alert('Please type a question if you want an answer.');
         } else {
             AskQuestion.style.display = 'none';
             restart.style.display = 'block';
